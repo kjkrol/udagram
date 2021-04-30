@@ -34,6 +34,10 @@ kubectl describe hpa
 ```
 ![horizontal-scaling](horizontal-scaling.png)
 
+UPDATED:
+After installing metrics server:
+![UPDATED-horizontal-scaling](UPDATED-horizontal-scaling.png)
+
 * To verify that you have set up logging with a backend application
 ```bash
 kubectl logs {pod_name}
